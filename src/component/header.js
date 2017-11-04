@@ -10,9 +10,6 @@ function Header(props) {
   }else{
   	text='';
   }
-
-
-
     return (
         <h1>
         <Link to='/' id='blck'> {text} </Link>

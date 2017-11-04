@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Route } from 'react-keeper'
-import Hah from './component/app.js'
+import App from './component/app.js'
 
 
 ReactDOM.render(
   <HashRouter>
-    <Hah />
+    <App />
   </HashRouter>,
 
   document.getElementById("root")

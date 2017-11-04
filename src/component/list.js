@@ -19,7 +19,7 @@ class List extends Component {
                 </div>
                 <div className="right">
                   <div className="title">{item.title}</div>
-                  <p>导演 {item.directors[0].name}</p>
+                  <p>导演 {item.directors[0] && item.directors[0].name}</p>
                   <p>评分 {item.rating.average || "暂无评分"}</p>
                   <p>
                     主演{" "}
